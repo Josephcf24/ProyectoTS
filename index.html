@@ -24,10 +24,13 @@
       font-weight: 500;
     }
     .hero {
-      background: url('banner.jpg') no-repeat center center/cover;
+      background-color: #004080;
       color: white;
       padding: 120px 0;
       text-align: center;
+    }
+    .half-background {
+      background: linear-gradient(to bottom, #e6f0ff 50%, white 50%);
     }
     .section {
       padding: 60px 0;
@@ -41,11 +44,11 @@
   </style>
 </head>
 
-<body>
+<body class="half-background">
   <!-- Encabezado -->
   <header class="py-3">
     <div class="container d-flex justify-content-between align-items-center">
-      <img src="logo-ejercito.png" alt="Logo Ejército">
+      <div style="color: white; font-size: 1.5rem; font-weight: bold;">Proyecto Social</div>
       <nav>
         <a href="#inicio">Inicio</a>
         <a href="#nosotros">Nosotros</a>
@@ -131,3 +134,4 @@
 </body>
 
 </html>
+
